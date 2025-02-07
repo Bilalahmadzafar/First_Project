@@ -5,7 +5,6 @@ import 'package:first_app/Views/Auth/register.dart';
 import 'package:first_app/Views/Profile/profile_setup.dart';
 import 'package:first_app/Views/Widgets/Auth/AuthHeading.dart';
 import 'package:first_app/Views/Widgets/Auth/Auth_text_fields.dart';
-import 'package:first_app/main.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';

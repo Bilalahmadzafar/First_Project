@@ -1,8 +1,7 @@
 import 'dart:async';
 
-import 'package:circular_profile_avatar/circular_profile_avatar.dart';
+//import 'package:circular_profile_avatar/circular_profile_avatar.dart';
 import 'package:first_app/Views/Auth/accept_invite.dart';
-import 'package:first_app/main.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:page_transition/page_transition.dart';
