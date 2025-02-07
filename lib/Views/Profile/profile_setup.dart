@@ -47,7 +47,7 @@ class _ProfileSetupState extends State<ProfileSetup> {
           children: [
             Container(
               alignment: Alignment.center,
-              height: 50.h,
+              height: 50,
               width: double.infinity,
               decoration: const BoxDecoration(
                 color: Colors.orange,
@@ -56,7 +56,7 @@ class _ProfileSetupState extends State<ProfileSetup> {
                 "Profile setup",
                 style: GoogleFonts.poppins(
                   fontWeight: FontWeight.w400,
-                  fontSize: 18.sp,
+                  fontSize: 18,
                 ),
               ),
             ),
@@ -77,7 +77,7 @@ class _ProfileSetupState extends State<ProfileSetup> {
                       initialsText: Text(
                         "Pic",
                         style: TextStyle(
-                          fontSize: 40.sp,
+                          fontSize: 40,
                           color: Colors.deepOrange.shade100,
                         ),
                       ),
@@ -91,7 +91,7 @@ class _ProfileSetupState extends State<ProfileSetup> {
                       child: AuthTextFields(
                         Labeltext: 'Name',
                         icon: Icons.face,
-                        Size: 16.sp,
+                        Size: 16,
                         keyboardtype: TextInputType.emailAddress,
                         obscureText: false,
                         floatingLabelBehavior: FloatingLabelBehavior.auto,
@@ -124,8 +124,8 @@ class _ProfileSetupState extends State<ProfileSetup> {
                             });
                           },
                           child: Container(
-                            height: 50.h,
-                            width: 50.w,
+                            height: 50,
+                            width: 50,
                             decoration: BoxDecoration(
                               color: isMale ? Colors.blue : Colors.grey,
                               shape: BoxShape.circle,
@@ -147,8 +147,8 @@ class _ProfileSetupState extends State<ProfileSetup> {
                             });
                           },
                           child: Container(
-                            height: 50.h,
-                            width: 50.w,
+                            height: 50,
+                            width: 50,
                             decoration: BoxDecoration(
                               color: isMale ? Colors.grey : Colors.pinkAccent,
                               shape: BoxShape.circle,

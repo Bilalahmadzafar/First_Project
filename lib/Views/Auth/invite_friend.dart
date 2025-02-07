@@ -23,8 +23,8 @@ class InviteFriend extends StatelessWidget {
           centerTitle: true,
           backgroundColor: Colors.white,
           title: Container(
-            width: 90.w,
-            height: 90.h,
+            width: 90,
+            height: 90,
             child: Image.asset(
               "assets/images/gold-coins-stack.jpg",
               filterQuality: FilterQuality.high,
@@ -49,7 +49,7 @@ class InviteFriend extends StatelessWidget {
                 padding: const EdgeInsets.all(15.0),
                 child: Icon(
                   Icons.person_outlined,
-                  size: 35.0.sp,
+                  size: 35.0,
                   color: Colors.orange.shade700,
                 ),
               ),
@@ -63,7 +63,7 @@ class InviteFriend extends StatelessWidget {
             Container(
               alignment: Alignment.center,
               width: double.infinity,
-              height: 60.h,
+              height: 60,
               color: Colors.orangeAccent,
               child: Text(
                 "Find your Friend",
@@ -83,7 +83,7 @@ class InviteFriend extends StatelessWidget {
               child: Row(children: [
                 Expanded(
                   child: Container(
-                    width: 300.w,
+                    width: 300,
                     decoration: BoxDecoration(
                       color: Colors.white,
                       borderRadius: const BorderRadius.all(
@@ -92,8 +92,9 @@ class InviteFriend extends StatelessWidget {
                       boxShadow: [
                         BoxShadow(
                             color: Colors.grey.withOpacity(0.3),
-                            spreadRadius: 3.dp,
-                            blurRadius: 10.0.dp),
+                            spreadRadius: 3,
+                            blurRadius: 10.0,
+                        ),
                       ],
                     ),
                     child: const TextField(
@@ -117,11 +118,11 @@ class InviteFriend extends StatelessWidget {
                   ),
                 ),
                  SizedBox(
-                  width: 12.w,
+                  width: 12,
                 ),
                 Container(
-                  height: 50.h,
-                  width: 50.w,
+                  height: 50,
+                  width: 50,
                   decoration: BoxDecoration(
                     color: Colors.orange,
                     shape: BoxShape.circle,
@@ -142,8 +143,8 @@ class InviteFriend extends StatelessWidget {
             const SizedBox(height: 20.0),
 
             SizedBox(
-              height: 300.h,
-              width: 400.w,
+              height: 300,
+              width: 400,
               child: Image.asset("assets/images/Invite friends2.jpg"),
             ),
             const SizedBox(height: 00.0),

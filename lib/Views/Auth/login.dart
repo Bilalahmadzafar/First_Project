@@ -81,7 +81,7 @@ class Login extends StatelessWidget {
                   child: RoundedLoadingButton(
                     color: Colors.orange,
                     borderRadius: 15,
-                    width: 150.w,
+                    width: 150,
                     controller: _loginbtnController,
                     onPressed: () {
                       Timer(Duration(seconds: 3), () {
@@ -103,7 +103,7 @@ class Login extends StatelessWidget {
                 ),
 
                 SizedBox(
-                  height: 25.h,
+                  height: 25,
                 ),
                 GestureDetector(
                   onTap: () {
