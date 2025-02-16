@@ -1,3 +1,5 @@
+import 'package:first_app/Views/Auth/dashboard.dart';
+import 'package:first_app/Views/Auth/homepage.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'Views/Profile/profile_setup.dart';
@@ -20,7 +22,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
           useMaterial3: true,
         ),
-        home: ProfileSetup(),
+        home: Homepage(),
       );
     },
     );
